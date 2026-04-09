@@ -1,0 +1,131 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>R.B.S Junior School</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>R.B.S Junior School</h1>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#teachers">Teachers</a>
+    <a href="#subjects">Subjects</a>
+    <a href="#results">Results</a>
+    <a href="#admission">Admission</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#holiday">Holiday</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="home">
+  <h2>Welcome to R.B.S Junior School</h2>
+  <p>We provide quality education for a bright future.</p>
+</section>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>This school is dedicated to excellence in education.</p>
+</section>
+
+<section id="teachers">
+  <h2>Our Teachers</h2>
+  <ul>
+    <li>Mr. Sharma - Math</li>
+    <li>Ms. Das - English</li>
+    <li>Mr. Roy - Science</li>
+  </ul>
+</section>
+
+<section id="subjects">
+  <h2>Subjects</h2>
+  <ul>
+    <li>Mathematics</li>
+    <li>English</li>
+    <li>Science</li>
+    <li>History</li>
+  </ul>
+</section>
+
+<section id="results">
+  <h2>Results</h2>
+  <p>Check student results here.</p>
+</section>
+
+<section id="admission">
+  <h2>Admission</h2>
+  <p>Required documents: Birth Certificate, Aadhar Card</p>
+  <form>
+    <input type="text" placeholder="Student Name"><br>
+    <input type="text" placeholder="Class"><br>
+    <input type="text" placeholder="Contact"><br>
+    <button type="submit">Apply</button>
+  </form>
+</section>
+
+<section id="gallery">
+  <h2>Photo Gallery</h2>
+  <img src="https://via.placeholder.com/150">
+  <img src="https://via.placeholder.com/150">
+</section>
+
+<section id="holiday">
+  <h2>Holiday List</h2>
+  <ul>
+    <li>01 Jan - New Year</li>
+    <li>26 Jan - Republic Day</li>
+  </ul>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>Phone: 9876543210</p>
+  <p>Email: school@gmail.com</p>
+</section>
+
+<footer>
+  <p>© 2026 R.B.S Junior School</p>
+</footer>
+
+</body>
+</html>
+
+
+/* style.css */
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+header {
+  background: blue;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
+
+section {
+  padding: 20px;
+}
+
+h2 {
+  color: blue;
+}
+
+footer {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
